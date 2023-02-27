@@ -44,6 +44,7 @@ class Student extends User {
   List list = [];
   selectStudents(){
     print('whould you want select students \n 1 -> yes');
+    // select student
     String choose = io.text;
     if(choose == '1'){
       print('if you want to stop this selection just type anytime stop');
